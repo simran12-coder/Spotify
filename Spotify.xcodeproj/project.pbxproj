@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1CE3F6907B0DDDA5F0A494B4 /* Pods_Spotify_SpotifyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9FB14538873D5B882048C1 /* Pods_Spotify_SpotifyUITests.framework */; };
 		650BCDDA33D188482A8248F5 /* Pods_Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98EA4B3845C72AF8556D441 /* Pods_Spotify.framework */; };
+		840358E1275B7EAB005DF188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840358E0275B7EAB005DF188 /* Main.storyboard */; };
 		84036CD826D1382D0033B0B0 /* EpisodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84036CD726D1382D0033B0B0 /* EpisodesViewController.swift */; };
 		84036CDD26D138360033B0B0 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84036CDC26D138360033B0B0 /* DownloadsViewController.swift */; };
 		84036CE226D1383D0033B0B0 /* ShowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84036CE126D1383D0033B0B0 /* ShowsViewController.swift */; };
@@ -32,7 +33,6 @@
 		84C80F3B26CE6DBF00383984 /* RecentlyPlayedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C80F3A26CE6DBF00383984 /* RecentlyPlayedCollectionViewCell.swift */; };
 		84D52A7126CD4D520051085A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D52A7026CD4D520051085A /* AppDelegate.swift */; };
 		84D52A7326CD4D520051085A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D52A7226CD4D520051085A /* SceneDelegate.swift */; };
-		84D52A7826CD4D520051085A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D52A7626CD4D520051085A /* Main.storyboard */; };
 		84D52A7B26CD4D520051085A /* Spotify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84D52A7926CD4D520051085A /* Spotify.xcdatamodeld */; };
 		84D52A7D26CD4D530051085A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D52A7C26CD4D530051085A /* Assets.xcassets */; };
 		84D52A8026CD4D530051085A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D52A7E26CD4D530051085A /* LaunchScreen.storyboard */; };
@@ -71,6 +71,7 @@
 		56F6672812DA8B5DD8E287FD /* Pods_SpotifyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotifyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9FB14538873D5B882048C1 /* Pods_Spotify_SpotifyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spotify_SpotifyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68872DC499212AF262B4B978 /* Pods-SpotifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyTests.debug.xcconfig"; path = "Target Support Files/Pods-SpotifyTests/Pods-SpotifyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		840358E0275B7EAB005DF188 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		84036CD726D1382D0033B0B0 /* EpisodesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesViewController.swift; sourceTree = "<group>"; };
 		84036CDC26D138360033B0B0 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		84036CE126D1383D0033B0B0 /* ShowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsViewController.swift; sourceTree = "<group>"; };
@@ -95,7 +96,6 @@
 		84D52A6D26CD4D520051085A /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D52A7026CD4D520051085A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84D52A7226CD4D520051085A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84D52A7726CD4D520051085A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84D52A7A26CD4D520051085A /* Spotify.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spotify.xcdatamodel; sourceTree = "<group>"; };
 		84D52A7C26CD4D530051085A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84D52A7F26CD4D530051085A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -214,7 +214,7 @@
 		8486057C26E1F997008362FB /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				84D52A7626CD4D520051085A /* Main.storyboard */,
+				840358E0275B7EAB005DF188 /* Main.storyboard */,
 				8486057D26E1FA3A008362FB /* Songs.storyboard */,
 			);
 			path = Storyboards;
@@ -438,6 +438,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8486057E26E1FA3A008362FB /* Songs.storyboard in Resources */,
+				840358E1275B7EAB005DF188 /* Main.storyboard in Resources */,
 				84136E0D26E10CDA0086051D /* Chalo Chalein - Ritviz.mp3 in Resources */,
 				84136E1726E10CE60086051D /* Thandi Hawa Ritviz 128 Kbps.mp3 in Resources */,
 				84D52A8026CD4D530051085A /* LaunchScreen.storyboard in Resources */,
@@ -445,7 +446,6 @@
 				8431819426D6746D00F9B5C6 /* Liggi - Ritviz.mp3 in Resources */,
 				84D52A7D26CD4D530051085A /* Assets.xcassets in Resources */,
 				84136E2F26E10D630086051D /* Udd Gaye Ved 320 Kbps.mp3 in Resources */,
-				84D52A7826CD4D520051085A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,14 +632,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		84D52A7626CD4D520051085A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84D52A7726CD4D520051085A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84D52A7E26CD4D530051085A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
